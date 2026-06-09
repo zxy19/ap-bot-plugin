@@ -9,6 +9,6 @@ export function registerRandomMap(ctx: Context) {
       const pveMaps = mapList.filter(m => PVE_MAP_IDS.includes(m.id))
       if (pveMaps.length === 0) return '未找到PVE地图'
       const map = pveMaps[Math.floor(Math.random() * pveMaps.length)]
-      return `随机PVE地图: ${map.name} (ID:${map.id})`
+      return `下一局就玩【${map.name}】吧`
     })
 }

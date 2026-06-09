@@ -59,7 +59,7 @@ test('apwatch rejects > 999999', async () => {
 test('随机地图 returns valid PVE map', async () => {
   const known = ['星趴·梦想号', '御魂庆典', '水乡古镇', '魔法学院', '龙宫游乐园', '幽魂暗巷', '园林中庭']
   const [r] = await client.receive('随机地图', 1)
-  assert.match(r, /^随机PVE地图: .+ \(ID:\d+\)$/)
+  assert.match(r, /^下一局就玩【.+】吧$/)
   assert.ok(known.some(m => r.includes(m)), `Unknown map: ${r}`)
 })
 
