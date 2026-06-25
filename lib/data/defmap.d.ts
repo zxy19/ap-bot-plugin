@@ -223,7 +223,7 @@ export declare const charMap: {
     "\u8089\u5F39\u6218\u8F66:\u6F58\u5927\u731B": number;
     "\u5C0F\u730E\u624B:\u58A8\u5F71": number;
     "\u53F2\u83B1\u59C6:\u7490\u7490": number;
-    "\u65D7\u888D\u5A18:\u67AB": number;
+    "\u65D7\u888D\u5A18:\u59EC\u68A6\u67AB": number;
     "\u547D\u8FD0\u5C11\u5973:\u84DD\u6D77\u6674": number;
     "\u592A\u5200\u4F7F:\u7F8E\u54B2": number;
     "\u7EFF\u6D32\u5973\u738B:\u5A1C\u8482\u65AF": number;
